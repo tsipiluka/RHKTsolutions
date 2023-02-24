@@ -1,0 +1,12 @@
+.logo {
+    display: inline-block;
+    width: 30%;
+}
+
+.logo_img {
+    width: 250px;
+}
+
+.layout {
+    text-align: center;
+}
