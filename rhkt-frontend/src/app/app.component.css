@@ -1,0 +1,14 @@
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: rgb(0, 190, 199);
+    font-size: 30px;
+}
+
+.title-wrapper {
+    text-align: center;
+    margin-left: 20px;
+    width: 100%;
+    display: flex;
+    margin-bottom: -20px;
+}
