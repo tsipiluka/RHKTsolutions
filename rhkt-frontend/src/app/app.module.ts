@@ -7,10 +7,12 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 
 //primeng
+import { CardModule } from 'primeng/card';
+import { DividerModule } from 'primeng/divider';
 
 @NgModule({
   declarations: [AppComponent, ProfileComponent, NavbarComponent],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, CardModule, DividerModule],
   providers: [],
   bootstrap: [AppComponent],
 })
