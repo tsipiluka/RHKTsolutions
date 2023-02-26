@@ -25,4 +25,8 @@
     .desktop {
         display: none;
     }
+
+    .title-wrapper {
+        margin-bottom: 0;
+    }
 }

@@ -33,5 +33,6 @@
 @media only screen and (max-width: 768px) {
     .logo-card {
         height: 200px;
+        margin-top: 0;
     }
 }
