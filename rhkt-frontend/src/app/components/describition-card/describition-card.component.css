@@ -16,6 +16,7 @@
     overflow: hidden;
     float: left;
     margin-bottom: 30px;
+    min-width: 350px;
 }
 
 .describtion-card p {
