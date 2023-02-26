@@ -29,3 +29,17 @@ img {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
+
+@media only screen and (max-width: 768px) {
+    .profiles {
+        flex-direction: column;
+    }
+
+    .profile {
+        margin-left: 0px;
+    }
+
+    img {
+        width: 150px;
+    }
+}
