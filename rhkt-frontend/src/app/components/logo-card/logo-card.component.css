@@ -20,6 +20,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.logo-card img {
+    width: 100%
+}
+
 .title {
     font-weight: 600;
     color: rgb(0, 190, 199);
