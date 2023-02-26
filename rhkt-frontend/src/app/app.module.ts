@@ -16,9 +16,11 @@ import { AvatarModule } from 'primeng/avatar';
 import { AvatarGroupModule } from 'primeng/avatargroup';
 import { ButtonModule } from 'primeng/button';
 import { SidebarModule } from 'primeng/sidebar';
+import { ServicesComponent } from './components/services/services.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 @NgModule({
-  declarations: [AppComponent, ProfileComponent, NavbarComponent, DescribitionCardComponent, LogoCardComponent],
+  declarations: [AppComponent, ProfileComponent, NavbarComponent, DescribitionCardComponent, LogoCardComponent, ServicesComponent, DashboardComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
