@@ -56,4 +56,4 @@ jobs:
             docker container remove rhktsolutions
             docker image remove rhktsolutions
             docker pull ghcr.io/tsipiluka/rhktsolutions:main
-            docker run -it -p 2020:2020/tcp -d --network=traefik_web --name rhktsolutions ghcr.io/tsipiluka/rhktsolutions:main
+            docker run -it -p 2020:2020 -d --network=traefik_web --name rhktsolutions ghcr.io/tsipiluka/rhktsolutions:main
