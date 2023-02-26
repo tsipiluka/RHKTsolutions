@@ -51,4 +51,18 @@
     .menu:hover {
         color: rgb(0, 190, 199);
     }
+
+    .sidebar a {
+        display: block;
+        margin-left: 20px;
+        margin-top: 20px;
+        text-decoration: none;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .sidebar a:hover {
+        color: rgb(0, 190, 199);
+        margin-left: 25px;
+    }
 }
