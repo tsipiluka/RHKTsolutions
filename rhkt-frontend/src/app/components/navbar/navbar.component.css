@@ -33,8 +33,22 @@
     margin-bottom: 10px;
 }
 
+.menu {
+    display: none;
+}
+
 @media only screen and (max-width: 768px) {
     .sections a {
         display: none;
+    }
+
+    .menu {
+        display: block;
+        float: left;
+        margin-left: 20px;
+    }
+
+    .menu:hover {
+        color: rgb(0, 190, 199);
     }
 }

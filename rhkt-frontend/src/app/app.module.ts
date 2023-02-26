@@ -13,10 +13,11 @@ import { DescribitionCardComponent } from './components/describition-card/descri
 import { LogoCardComponent } from './components/logo-card/logo-card.component';
 import { AvatarModule } from 'primeng/avatar';
 import { AvatarGroupModule } from 'primeng/avatargroup';
+import { ButtonModule } from 'primeng/button';
 
 @NgModule({
   declarations: [AppComponent, ProfileComponent, NavbarComponent, DescribitionCardComponent, LogoCardComponent],
-  imports: [BrowserModule, AppRoutingModule, CardModule, DividerModule, AvatarModule, AvatarGroupModule],
+  imports: [BrowserModule, AppRoutingModule, CardModule, DividerModule, AvatarModule, AvatarGroupModule, ButtonModule],
   providers: [],
   bootstrap: [AppComponent],
 })
