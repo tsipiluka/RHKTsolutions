@@ -18,4 +18,5 @@ RUN rm -rf /usr/src/app/node_modules
 
 LABEL traefik.enable="true"
 LABEL traefik.http.routers.nginx.rule="Host(`rhkt-solutions.wh0cares.live`)"
+LABEL traefik.http.services.client.loadbalancer.server.port="2020"
 
