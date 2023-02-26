@@ -16,13 +16,6 @@ RUN rm -rf /usr/share/nginx/html/*
 COPY --from=builder /usr/src/app/dist/rhkt-frontend /usr/share/nginx/html
 RUN rm -rf /usr/src/app/node_modules
 
-RUN echo "mainFileName=\"\$(ls /usr/share/nginx/html/main*.js)\" && \
-    envsubst '\$BACKEND_URL \$FRONTEND_URL \$GOOGLE_API_KEY_CLIENT_ID ' \
-    < \${mainFileName} > main.tmp && \
-    mv main.tmp  \${mainFileName} && nginx -g 'daemon off;'" > run.sh
-
-
-
 ENTRYPOINT ["sh", "run.sh"]
 
 LABEL traefik.enable="true"
