@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-top: 20px;
     float: left;
     min-width: 350px;
@@ -28,4 +28,10 @@
 .title {
     font-weight: 600;
     color: rgb(0, 190, 199);
+}
+
+@media only screen and (max-width: 768px) {
+    .logo-card {
+        height: 200px;
+    }
 }
