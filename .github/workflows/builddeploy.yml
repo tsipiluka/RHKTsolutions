@@ -52,7 +52,7 @@ jobs:
           key: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
           script: |
-            cd portfolio/
+            docker container stop rhkt solutions
             docker container remove rhktsolutions
             docker image remove rhktsolutions
             docker pull ghcr.io/tsipiluka/rhktsolutions:main
