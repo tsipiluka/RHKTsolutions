@@ -7,3 +7,7 @@ RUN npm run build --prod
 # Stage 2
 FROM nginx:alpine
 COPY --from=node /app/dist/angular-app /usr/share/nginx/html
+
+LABEL traefik.enable="true"
+LABEL traefik.http.routers.nginx.rule="Host(`rhkt-solutions.wh0cares.live`)"
+
