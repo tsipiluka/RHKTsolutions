@@ -16,8 +16,6 @@ RUN rm -rf /usr/share/nginx/html/*
 COPY --from=builder /usr/src/app/dist/rhkt-frontend /usr/share/nginx/html
 RUN rm -rf /usr/src/app/node_modules
 
-ENTRYPOINT ["sh", "run.sh"]
-
 LABEL traefik.enable="true"
 LABEL traefik.http.routers.nginx.rule="Host(`rhkt-solutions.wh0cares.live`)"
 
