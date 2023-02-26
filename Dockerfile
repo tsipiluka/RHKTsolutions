@@ -3,7 +3,7 @@ FROM node:18.12.1-alpine as builder
 WORKDIR /usr/src/app
 ENV PATH /usr/src/app/node_modules/.bin:$PATH
 
-COPY package.json /usr/src/app/package.json
+COPY ./rhkt-frontend/package.json /usr/src/app/package.json
 RUN npm install
 RUN npm install -g @angular/cli@latest
 
