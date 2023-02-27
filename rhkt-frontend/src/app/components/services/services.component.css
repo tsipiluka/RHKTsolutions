@@ -4,6 +4,7 @@
         margin: .3rem;
         text-align: center;
         padding: 0rem 0;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
 
 .product-item .product-image {
@@ -18,4 +19,8 @@
 .service img {
     width: 100%;
     height: 70%;
+}
+
+.service p {
+    font-weight: 600;
 }
