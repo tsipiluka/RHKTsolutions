@@ -30,6 +30,10 @@ img {
     font-weight: 500;
 }
 
+a:visited {
+    color: rgb(0, 190, 199);
+}
+
 @media only screen and (max-width: 768px) {
     .profiles {
         flex-direction: column;
