@@ -18,9 +18,18 @@ import { ButtonModule } from 'primeng/button';
 import { SidebarModule } from 'primeng/sidebar';
 import { ServicesComponent } from './components/services/services.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { CarouselModule } from 'primeng/carousel';
 
 @NgModule({
-  declarations: [AppComponent, ProfileComponent, NavbarComponent, DescribitionCardComponent, LogoCardComponent, ServicesComponent, DashboardComponent],
+  declarations: [
+    AppComponent,
+    ProfileComponent,
+    NavbarComponent,
+    DescribitionCardComponent,
+    LogoCardComponent,
+    ServicesComponent,
+    DashboardComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -31,6 +40,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     ButtonModule,
     SidebarModule,
     BrowserAnimationsModule,
+    CarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
